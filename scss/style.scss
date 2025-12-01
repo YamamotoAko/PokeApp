@@ -17,19 +17,22 @@ body {
     font-size: 3rem;
 
     @media (width < 500px) {
-      font-size: 2rem;
+      font-size: 1rem;
     }
   }
   .img {
     width: 450px;
     @media (width < 500px) {
-      width: 300px;
+      width: 200px;
     }
   }
   #answer {
     padding-block: 0.5rem;
     background-color: #e1c120d1;
     border-radius: 20px;
+    @media (width < 500px) {
+      font-size: 14px;
+    }
   }
   #answer:hover {
     box-shadow: 0 0 5px 0 rgba(255, 153, 0, 1);
@@ -43,6 +46,10 @@ body {
 
   #result {
     margin-top: 1rem;
+    @media (width < 500px) {
+      margin-top: 0.5rem;
+      font-size: 14px;
+    }
   }
 
   #nextBtn {
@@ -55,6 +62,11 @@ body {
     cursor: pointer;
     background-color: #ea4f24;
     transition: all 0.2s ease;
+    @media (width < 500px) {
+      margin-top: 0.5rem;
+      padding: 5px 11px;
+      font-size: 14px;
+    }
   }
 
   #nextBtn:active {

@@ -295,7 +295,7 @@ body h1 {
 }
 @media (width < 500px) {
   body h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 body .img {
@@ -303,13 +303,18 @@ body .img {
 }
 @media (width < 500px) {
   body .img {
-    width: 300px;
+    width: 200px;
   }
 }
 body #answer {
   padding-block: 0.5rem;
   background-color: rgba(225, 193, 32, 0.8196078431);
   border-radius: 20px;
+}
+@media (width < 500px) {
+  body #answer {
+    font-size: 14px;
+  }
 }
 body #answer:hover {
   box-shadow: 0 0 5px 0 rgb(255, 153, 0);
@@ -322,6 +327,12 @@ body #checkBtn {
 body #result {
   margin-top: 1rem;
 }
+@media (width < 500px) {
+  body #result {
+    margin-top: 0.5rem;
+    font-size: 14px;
+  }
+}
 body #nextBtn {
   position: relative;
   padding: 10px 22px;
@@ -332,6 +343,13 @@ body #nextBtn {
   cursor: pointer;
   background-color: #ea4f24;
   transition: all 0.2s ease;
+}
+@media (width < 500px) {
+  body #nextBtn {
+    margin-top: 0.5rem;
+    padding: 5px 11px;
+    font-size: 14px;
+  }
 }
 body #nextBtn:active {
   transform: scale(0.96);
